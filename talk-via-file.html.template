@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Awesome Presentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono';
+        text-align: left;
+      }
+      ul { text-align: left; }
+      .erg h1, h2, h3 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body onload="var slideshow = remark.create();">
+    <textarea id="source" style="display: none">
+      #THIS_BIT_HERE
+    </textarea>
+    <script src="http://gnab.github.io/remark/downloads/remark-0.10.2.min.js" type="text/javascript">
+    </script>
+  </body>
+</html>
